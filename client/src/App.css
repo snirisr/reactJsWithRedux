@@ -1,0 +1,221 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/images/background.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  background-attachment: fixed;
+  
+}
+
+.App {
+  text-align: center;
+}.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page{
+  display: flex;
+  flex-direction: column;
+  margin:  auto;
+  width: 800px;
+  padding: 100px;
+  color: #FD9526;
+  background-color: rgba(19, 60, 85, 0.5);
+  border-radius: 10px;  
+  align-items: center;
+}
+
+
+.login-payload{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.login-payload>input{
+  width: 285px;
+  margin: 12px auto;
+  padding: 12px;
+  background-color:rgba(255, 232, 209, 0.8);
+  border: transparent;
+  border-radius: 10px;
+}
+
+.login-payload>input:focus{
+ outline-color:  #FD9526;
+}
+#login-btn {
+    background-color: #293132; /* Green */
+    border: none;
+    border-radius: 8px;
+    color:  #FD9526;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active{
+  background-color: #FD9526;
+  padding-top: 0.40em;
+  padding-bottom: 0.4em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  font-size: 20;
+  border-radius: 30;
+  color: 'black';
+}
+
+.navLink {
+  display: flex;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-right: 1.5em;
+  padding-left:1.5em;
+  margin-top: 1em;
+  font-size: 40;
+  border-radius: 10;
+  color: 'black';
+}
+
+a:hover{
+  color:  white;
+}
+.register-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page{
+  display: flex;
+  flex-direction: column;
+  margin:  auto;
+  width: 800px;
+  padding: 100px;
+  color: #FD9526;
+  background-color: rgba(19, 60, 85, 0.5);
+  border-radius: 10px;  
+  align-items: center;
+}
+
+.modal-page{
+  display: flex;
+  flex-direction: column;
+  margin:  auto;
+  width: 800px;
+  padding: 100px;
+  color: #FD9526;
+  background-color: #69A7C2;
+  border-radius: 10px;  
+  align-items: center;
+}
+
+.wrong{
+  width: 100vw;
+  height: 100vh;
+}
+
+.register-payload{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.register-payload>input{
+  width: 285px;
+  margin: 12px auto;
+  padding: 12px;
+  background-color:rgba(255, 232, 209, 0.8);
+  border: transparent;
+  border-radius: 10px;
+}
+
+.register-payload>input:focus{
+ outline-color:  #FD9526;
+}
+#register-btn {
+    background-color: #293132; /* Green */
+    border: none;
+    border-radius: 8px;
+    color:  #FD9526;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+.submit{
+  width: 310px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vacations-container{
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 0px;
+}
+
+.card{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  overflow: scroll;
+  border: 0.3px solid rgb(247, 247, 247);
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 90px 70px 70px 70px ;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.card>*{
+  margin: 10px;
+}
+
+.reports{
+  width: 100vw;
+  height: 100vh;
+}
+
+.vacation-img{
+  width: 70%;
+  height: 50%;
+  border-radius: 3px;
+}
